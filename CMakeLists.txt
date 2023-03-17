@@ -7,6 +7,8 @@ project(
     LANGUAGES CXX
 )
 
+include(FetchContent)
+
 FetchContent_Declare(
     platform_a
     GIT_REPOSITORY 
