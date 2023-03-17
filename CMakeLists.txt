@@ -16,12 +16,12 @@ FetchContent_Declare(
 )
 
 FetchContent_Declare(
-    util_A
+    UtilA
     GIT_REPOSITORY https://github.com/cmake-paul/util_a.git
     GIT_TAG main
 )
 
-FetchContent_MakeAvailable(platform_a util_A)
+FetchContent_MakeAvailable(platform_a UtilA)
 
 add_executable(main)
 
@@ -31,5 +31,5 @@ add_subdirectory(src)
 target_link_libraries(
     main
     PRIVATE
-    util_A
+    UtilA
 )
