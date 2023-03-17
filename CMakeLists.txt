@@ -11,13 +11,13 @@ include(FetchContent)
 
 FetchContent_Declare(
     platform_a
-    GIT_REPOSITORY 
+    GIT_REPOSITORY https://github.com/cmake-paul/platform_a.git
     GIT_TAG main
 )
 
 FetchContent_Declare(
     util_A
-    GIT_REPOSITORY 
+    GIT_REPOSITORY https://github.com/cmake-paul/util_a.git
     GIT_TAG main
 )
 
