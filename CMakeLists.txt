@@ -10,7 +10,7 @@ project(
 include(FetchContent)
 
 FetchContent_Declare(
-    platform_a
+    PlatformA
     GIT_REPOSITORY https://github.com/cmake-paul/platform_a.git
     GIT_TAG main
 )
@@ -21,7 +21,7 @@ FetchContent_Declare(
     GIT_TAG main
 )
 
-FetchContent_MakeAvailable(platform_a UtilA)
+FetchContent_MakeAvailable(PlatformA UtilA)
 
 add_executable(main)
 
